@@ -18,6 +18,6 @@ function deepestChild(){
 var node = document.getElementById("grand-node").querySelectorAll("div")
 var fin
 for(let i = 0; i < node.length; i++){
-  fin = 
+  fin = node[i].querySelector("div")
 }
 }
