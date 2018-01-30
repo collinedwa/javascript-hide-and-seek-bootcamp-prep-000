@@ -15,5 +15,5 @@ return values
 }
 
 function deepestChild(){
-  
+node = document.querySelector("grand-node")  
 }
