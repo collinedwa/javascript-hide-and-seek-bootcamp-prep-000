@@ -15,10 +15,10 @@ return values
 }
 
 function deepestChild(){
-var node = document.getElementById("grand-node").querySelectorAll("div")
+var nodes = document.getElementById("grand-node").querySelectorAll("div")
 var next
-for(let i = 0; i < node.length - 1; i++){
-  next = node[i].querySelector("div")
+for(let i = 0; i < nodes.length - 1; i++){
+  next = nodes[i].querySelector("div")
 }
 return next
 }
