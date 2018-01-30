@@ -16,5 +16,5 @@ return values
 
 function deepestChild(){
 var node = document.getElementById("grand-node")
-var next = nod
+var next = node.children[0]
 }
