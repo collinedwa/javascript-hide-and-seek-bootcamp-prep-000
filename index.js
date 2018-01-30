@@ -15,5 +15,5 @@ return values
 }
 
 function deepestChild(){
-node = document.getElementById("grand-node")  
+var node = document.getElementById("grand-node")  
 }
