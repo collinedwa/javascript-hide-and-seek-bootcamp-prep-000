@@ -16,9 +16,5 @@ return values
 
 function deepestChild(){
 var node = document.getElementById("grand-node")
-var fin
-for(let i = 0; i < node.length; i++){
-  fin = node[i].querySelector("div")
-}
-return fin
+var next = nod
 }
